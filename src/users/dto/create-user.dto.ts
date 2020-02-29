@@ -3,6 +3,6 @@ export class CreateUserDto {
   readonly surname: string;
   readonly email: string;
   readonly phone: string;
-  readonly birthdaydate: Date;
+  // readonly birthdaydate: Date;
   password: string;
 }
